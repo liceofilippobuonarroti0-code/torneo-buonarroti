@@ -6,67 +6,380 @@
   <meta name="theme-color" content="#14112e">
   <meta name="description" content="Il punto di riferimento per il Torneo d’Istituto 2026/27 del Liceo Filippo Buonarroti: iscrizioni, sport, regolamento e comunicazioni.">
   <title>Torneo d’Istituto 2026/27 · Liceo Filippo Buonarroti</title>
-  <link rel="icon" type="image/png" href=".logo-buonarroti.png">
-  <link rel="apple-touch-icon" href="./assets/logo-buonarroti.png">
+  <link rel="icon" type="image/png" href="./logo-buonarroti.png">
+  <link rel="apple-touch-icon" href="./logo-buonarroti.png">
   <link rel="stylesheet" href="./styles.css">
   <script src="./config.js" defer></script>
   <script src="./script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
   <div class="opening">
     <header class="header container">
-      <a class="brand" href="#" aria-label="Buonarroti, inizio pagina"><img class="brand-logo" src="./assets/logo-buonarroti.png" alt="Logo del Liceo Filippo Buonarroti" width="1254" height="1254" fetchpriority="high"><span class="brand-copy"><span class="brand-title">Torneo d’Istituto</span><span class="brand-sub">2026/27</span></span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <a class="brand" href="#" aria-label="Buonarroti, inizio pagina">
+        <img
+          class="brand-logo"
+          src="./logo-buonarroti.png"
+          alt="Logo del Liceo Filippo Buonarroti"
+          width="1254"
+          height="1254"
+          fetchpriority="high"
+        >
+        <span class="brand-copy">
+          <span class="brand-title">Torneo d’Istituto</span>
+          <span class="brand-sub">2026/27</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">
+        Menu <span aria-hidden="true">☰</span>
+      </button>
+
       <nav id="navigation" class="navigation" aria-label="Navigazione principale">
-        <a href="#sport">Sport</a><a href="#regolamento">Regolamento</a><a href="#squadre">Squadre</a><a href="#comunicazioni">Novità</a><a class="nav-cta" href="#iscrizioni">Iscrizioni</a>
+        <a href="#sport">Sport</a>
+        <a href="#regolamento">Regolamento</a>
+        <a href="#squadre">Squadre</a>
+        <a href="#comunicazioni">Novità</a>
+        <a class="nav-cta" href="#iscrizioni">Iscrizioni</a>
       </nav>
     </header>
   </div>
+
   <main id="contenuto">
     <div class="opening">
       <section class="hero container" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="tiny-line" aria-hidden="true"></span> LICEO FILIPPO BUONARROTI</p>
-          <h1 id="hero-title">Torneo<br>d’Istituto<span class="title-dot">.</span></h1>
-          <p class="hero-subtitle">Una scuola. Tre sport.<br>La tua squadra.</p>
-          <p class="hero-description">Forma la tua squadra, scegli lo sport<br class="desktop-break"> e scendi in campo con il Buonarroti.</p>
-          <a class="button button-light" href="#iscrizioni" data-registration>Iscrivi la tua squadra</a>
-          <p class="hero-note" data-registration-status>Informazioni sulle iscrizioni in arrivo</p>
+          <p class="eyebrow">
+            <span class="tiny-line" aria-hidden="true"></span>
+            LICEO FILIPPO BUONARROTI
+          </p>
+
+          <h1 id="hero-title">
+            Torneo<br>
+            d’Istituto<span class="title-dot">.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Una scuola. Tre sport.<br>
+            La tua squadra.
+          </p>
+
+          <p class="hero-description">
+            Forma la tua squadra, scegli lo sport<br class="desktop-break">
+            e scendi in campo con il Buonarroti.
+          </p>
+
+          <a class="button button-light" href="#iscrizioni" data-registration>
+            Iscrivi la tua squadra
+          </a>
+
+          <p class="hero-note" data-registration-status>
+            Informazioni sulle iscrizioni in arrivo
+          </p>
         </div>
+
         <div class="edition" aria-label="Anno scolastico 2026/27">
-          <div class="edition-top"><span>ANNO SCOLASTICO</span><span aria-hidden="true">✦</span></div>
-          <div class="edition-years" aria-hidden="true"><span>20<span class="year-highlight">26</span></span><span class="year-second"><span class="year-slash">/</span>27</span></div>
-          <div class="edition-bottom"><span>CALCETTO · BASKET · PALLAVOLO</span><span>01 — 03</span></div>
+          <div class="edition-top">
+            <span>ANNO SCOLASTICO</span>
+            <span aria-hidden="true">✦</span>
+          </div>
+
+          <div class="edition-years" aria-hidden="true">
+            <span>20<span class="year-highlight">26</span></span>
+            <span class="year-second">
+              <span class="year-slash">/</span>27
+            </span>
+          </div>
+
+          <div class="edition-bottom">
+            <span>CALCETTO · BASKET · PALLAVOLO</span>
+            <span>01 — 03</span>
+          </div>
         </div>
       </section>
-      <div class="hero-bottom container"><span>IL TORNEO COMINCIA DALLA TUA SQUADRA</span><a href="#sport">Scopri gli sport <span aria-hidden="true">↓</span></a></div>
-    </div>
-  <div class="page-content">
-    <section id="sport" class="section container" aria-labelledby="sport-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / GLI SPORT</p><h2 id="sport-title">Scegli il tuo campo.</h2></div><p>Tre modi per mettersi in gioco.<br>Un solo spirito di squadra.</p></div>
-      <div class="sports-grid">
-        <article class="sport-card"><div class="sport-top"><span class="sport-number">01</span><span class="sport-icon" aria-hidden="true">⚽</span></div><h3>Calcetto</h3><p>Passaggi, intesa e voglia di fare gol.</p><a href="#regolamento">Consulta il regolamento</a></article>
-        <article class="sport-card"><div class="sport-top"><span class="sport-number">02</span><span class="sport-icon" aria-hidden="true">🏀</span></div><h3>Basket</h3><p>Porta in campo l’energia della tua squadra.</p><a href="#regolamento">Consulta il regolamento</a></article>
-        <article class="sport-card"><div class="sport-top"><span class="sport-number">03</span><span class="sport-icon" aria-hidden="true">🏐</span></div><h3>Pallavolo</h3><p>Ogni punto si costruisce insieme.</p><a href="#regolamento">Consulta il regolamento</a></article>
+
+      <div class="hero-bottom container">
+        <span>IL TORNEO COMINCIA DALLA TUA SQUADRA</span>
+        <a href="#sport">
+          Scopri gli sport <span aria-hidden="true">↓</span>
+        </a>
       </div>
-    </section>
-    <section id="iscrizioni" class="registration-section" aria-labelledby="registration-title">
-      <div class="container registration-layout">
-        <div><p class="eyebrow">02 / ISCRIZIONI</p><h2 id="registration-title">La squadra c’è?<br>Fatti avanti.</h2><p>Il capitano compila il modulo per tutta la squadra.<br>L’iscrizione sarà valida dopo la verifica degli organizzatori.</p><span class="status-label" data-registration-status>Informazioni sulle iscrizioni in arrivo</span><p class="deadline" id="deadline">La data di chiusura sarà comunicata qui.</p></div>
-        <div class="registration-steps"><ol><li><span>01</span><div><h3>Scegli lo sport</h3><p>Calcetto, basket o pallavolo.</p></div></li><li><span>02</span><div><h3>Prepara i dati</h3><p>Nome squadra, classe, contatto del capitano ed elenco dei giocatori.</p></div></li><li><span>03</span><div><h3>Invia l’iscrizione</h3><p>Leggi il regolamento e compila il modulo.</p></div></li></ol><a class="button button-purple" href="#iscrizioni" data-registration>Iscrivi la tua squadra</a><p class="small-note">Le comunicazioni ufficiali saranno pubblicate su questa pagina.</p></div>
-      </div>
-    </section>
-    <div class="container info-grid section">
-      <section id="regolamento" class="info-panel" aria-labelledby="rules-title"><p class="eyebrow">03 / LE REGOLE</p><h2 id="rules-title">Stesso campo.<br>Stesse regole.</h2><p>Il regolamento completo sarà pubblicato a breve. Qui troverai requisiti delle squadre, modalità di gioco e indicazioni per ogni sport.</p><p class="text-status" id="rules-status">Regolamento in aggiornamento</p><a class="button button-outline" id="rules-link" href="#regolamento" hidden>Leggi il regolamento</a></section>
-      <section id="squadre" class="info-panel teams-panel" aria-labelledby="teams-title"><p class="eyebrow">04 / I PARTECIPANTI</p><h2 id="teams-title">Chi scende<br>in campo.</h2><div id="teams-placeholder"><p>Le squadre approvate dagli organizzatori verranno pubblicate qui.</p><div class="empty-state"><span aria-hidden="true">✦</span><p>Il prossimo nome<br>potrebbe essere il vostro.</p></div></div><div id="teams-connected" hidden><p>Consulta l’elenco aggiornato delle squadre approvate, suddivise per sport.</p><a class="button button-outline" id="teams-link" href="#squadre">Vedi le squadre iscritte</a></div></section>
     </div>
-    <section id="comunicazioni" class="container communications section" aria-labelledby="news-title"><div class="section-heading"><div><p class="eyebrow">05 / COMUNICAZIONI</p><h2 id="news-title">Ci vediamo qui.</h2></div><p>Tutto quello che serve sapere,<br>prima e durante il torneo.</p></div><article class="notice"><span class="notice-label">IN AGGIORNAMENTO</span><div><h3>Il punto di riferimento del torneo</h3><p>Calendario, gironi, risultati e comunicazioni ufficiali saranno pubblicati su questa pagina. Torna qui per i prossimi aggiornamenti.</p></div></article></section>
-    <aside class="closing-banner"><div class="container"><p>Il bello è giocare.<br><strong>Insieme, ancora di più.</strong></p><a class="button button-light" href="#iscrizioni" data-registration>Iscrivi la tua squadra</a></div></aside>
-  </div>
+
+    <div class="page-content">
+
+      <section id="sport" class="section container" aria-labelledby="sport-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / GLI SPORT</p>
+            <h2 id="sport-title">Scegli il tuo campo.</h2>
+          </div>
+
+          <p>
+            Tre modi per mettersi in gioco.<br>
+            Un solo spirito di squadra.
+          </p>
+        </div>
+
+        <div class="sports-grid">
+          <article class="sport-card">
+            <div class="sport-top">
+              <span class="sport-number">01</span>
+              <span class="sport-icon" aria-hidden="true">⚽</span>
+            </div>
+            <h3>Calcetto</h3>
+            <p>Passaggi, intesa e voglia di fare gol.</p>
+            <a href="#regolamento">Consulta il regolamento</a>
+          </article>
+
+          <article class="sport-card">
+            <div class="sport-top">
+              <span class="sport-number">02</span>
+              <span class="sport-icon" aria-hidden="true">🏀</span>
+            </div>
+            <h3>Basket</h3>
+            <p>Porta in campo l’energia della tua squadra.</p>
+            <a href="#regolamento">Consulta il regolamento</a>
+          </article>
+
+          <article class="sport-card">
+            <div class="sport-top">
+              <span class="sport-number">03</span>
+              <span class="sport-icon" aria-hidden="true">🏐</span>
+            </div>
+            <h3>Pallavolo</h3>
+            <p>Ogni punto si costruisce insieme.</p>
+            <a href="#regolamento">Consulta il regolamento</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="iscrizioni" class="registration-section" aria-labelledby="registration-title">
+        <div class="container registration-layout">
+
+          <div>
+            <p class="eyebrow">02 / ISCRIZIONI</p>
+
+            <h2 id="registration-title">
+              La squadra c’è?<br>
+              Fatti avanti.
+            </h2>
+
+            <p>
+              Il capitano compila il modulo per tutta la squadra.<br>
+              L’iscrizione sarà valida dopo la verifica degli organizzatori.
+            </p>
+
+            <span class="status-label" data-registration-status>
+              Informazioni sulle iscrizioni in arrivo
+            </span>
+
+            <p class="deadline" id="deadline">
+              La data di chiusura sarà comunicata qui.
+            </p>
+          </div>
+
+          <div class="registration-steps">
+            <ol>
+              <li>
+                <span>01</span>
+                <div>
+                  <h3>Scegli lo sport</h3>
+                  <p>Calcetto, basket o pallavolo.</p>
+                </div>
+              </li>
+
+              <li>
+                <span>02</span>
+                <div>
+                  <h3>Prepara i dati</h3>
+                  <p>Nome squadra, classe, contatto del capitano ed elenco dei giocatori.</p>
+                </div>
+              </li>
+
+              <li>
+                <span>03</span>
+                <div>
+                  <h3>Invia l’iscrizione</h3>
+                  <p>Leggi il regolamento e compila il modulo.</p>
+                </div>
+              </li>
+            </ol>
+
+            <a class="button button-purple" href="#iscrizioni" data-registration>
+              Iscrivi la tua squadra
+            </a>
+
+            <p class="small-note">
+              Le comunicazioni ufficiali saranno pubblicate su questa pagina.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container info-grid section">
+
+        <section id="regolamento" class="info-panel" aria-labelledby="rules-title">
+          <p class="eyebrow">03 / LE REGOLE</p>
+
+          <h2 id="rules-title">
+            Stesso campo.<br>
+            Stesse regole.
+          </h2>
+
+          <p>
+            Il regolamento completo sarà pubblicato a breve.
+            Qui troverai requisiti delle squadre, modalità di gioco
+            e indicazioni per ogni sport.
+          </p>
+
+          <p class="text-status" id="rules-status">
+            Regolamento in aggiornamento
+          </p>
+
+          <a class="button button-outline" id="rules-link" href="#regolamento" hidden>
+            Leggi il regolamento
+          </a>
+        </section>
+
+        <section id="squadre" class="info-panel teams-panel" aria-labelledby="teams-title">
+          <p class="eyebrow">04 / I PARTECIPANTI</p>
+
+          <h2 id="teams-title">
+            Chi scende<br>
+            in campo.
+          </h2>
+
+          <div id="teams-placeholder">
+            <p>
+              Le squadre approvate dagli organizzatori verranno pubblicate qui.
+            </p>
+
+            <div class="empty-state">
+              <span aria-hidden="true">✦</span>
+              <p>
+                Il prossimo nome<br>
+                potrebbe essere il vostro.
+              </p>
+            </div>
+          </div>
+
+          <div id="teams-connected" hidden>
+            <p>
+              Consulta l’elenco aggiornato delle squadre approvate,
+              suddivise per sport.
+            </p>
+
+            <a class="button button-outline" id="teams-link" href="#squadre">
+              Vedi le squadre iscritte
+            </a>
+          </div>
+        </section>
+
+      </div>
+
+      <section id="comunicazioni" class="container communications section" aria-labelledby="news-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">05 / COMUNICAZIONI</p>
+            <h2 id="news-title">Ci vediamo qui.</h2>
+          </div>
+
+          <p>
+            Tutto quello che serve sapere,<br>
+            prima e durante il torneo.
+          </p>
+        </div>
+
+        <article class="notice">
+          <span class="notice-label">IN AGGIORNAMENTO</span>
+
+          <div>
+            <h3>Il punto di riferimento del torneo</h3>
+
+            <p>
+              Calendario, gironi, risultati e comunicazioni ufficiali
+              saranno pubblicati su questa pagina.
+              Torna qui per i prossimi aggiornamenti.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <aside class="closing-banner">
+        <div class="container">
+          <p>
+            Il bello è giocare.<br>
+            <strong>Insieme, ancora di più.</strong>
+          </p>
+
+          <a class="button button-light" href="#iscrizioni" data-registration>
+            Iscrivi la tua squadra
+          </a>
+        </div>
+      </aside>
+
+    </div>
   </main>
-  <footer class="footer container"><a class="brand footer-brand" href="#" aria-label="Buonarroti, torna all’inizio"><img class="brand-logo" src=".logo-buonarroti.png" alt="Logo del Liceo Filippo Buonarroti" width="1254" height="1254" loading="lazy"><span class="brand-copy"><span class="brand-title">Torneo d’Istituto</span><span class="brand-sub">2026/27</span></span></a><p>Liceo Filippo Buonarroti<br>Pagina informativa del torneo d’istituto</p><a href="#">Torna all’inizio ↑</a></footer>
-  <dialog id="registration-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><button class="dialog-close" type="button" aria-label="Chiudi avviso">×</button><p class="eyebrow">ISCRIZIONI</p><h2 id="dialog-title">Ci siamo quasi.</h2><p id="dialog-description">Il modulo di iscrizione sarà disponibile a breve. Torna su questa pagina per gli aggiornamenti degli organizzatori.</p><button class="button button-purple dialog-dismiss" type="button">Ho capito</button></dialog>
-  <noscript><div class="noscript-note">Per aprire il modulo e l’elenco aggiornato delle squadre, attiva JavaScript nel browser. Le informazioni del torneo restano consultabili nella pagina.</div></noscript>
+
+  <footer class="footer container">
+    <a class="brand footer-brand" href="#" aria-label="Buonarroti, torna all’inizio">
+      <img
+        class="brand-logo"
+        src="./logo-buonarroti.png"
+        alt="Logo del Liceo Filippo Buonarroti"
+        width="1254"
+        height="1254"
+        loading="lazy"
+      >
+
+      <span class="brand-copy">
+        <span class="brand-title">Torneo d’Istituto</span>
+        <span class="brand-sub">2026/27</span>
+      </span>
+    </a>
+
+    <p>
+      Liceo Filippo Buonarroti<br>
+      Pagina informativa del torneo d’istituto
+    </p>
+
+    <a href="#">Torna all’inizio ↑</a>
+  </footer>
+
+  <dialog
+    id="registration-dialog"
+    aria-labelledby="dialog-title"
+    aria-describedby="dialog-description"
+  >
+    <button class="dialog-close" type="button" aria-label="Chiudi avviso">
+      ×
+    </button>
+
+    <p class="eyebrow">ISCRIZIONI</p>
+
+    <h2 id="dialog-title">
+      Ci siamo quasi.
+    </h2>
+
+    <p id="dialog-description">
+      Il modulo di iscrizione sarà disponibile a breve.
+      Torna su questa pagina per gli aggiornamenti degli organizzatori.
+    </p>
+
+    <button class="button button-purple dialog-dismiss" type="button">
+      Ho capito
+    </button>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-note">
+      Per aprire il modulo e l’elenco aggiornato delle squadre,
+      attiva JavaScript nel browser.
+      Le informazioni del torneo restano consultabili nella pagina.
+    </div>
+  </noscript>
+
 </body>
 </html>
